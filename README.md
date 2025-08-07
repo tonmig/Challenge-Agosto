@@ -12,6 +12,10 @@ Lo realicé de la siguiente manera:
 -ya quedo todo sincronizado 
 
 
--esto es una prueba
--segundo cambio para verificar
+-esto es una prueba    
+-segundo cambio para verificar    
+**las pruebas fueren un exito solo debo abrir las carpeta donde esta mi proyecto con git y una vez abierto utilizo el comando `git init` y con eso esta listo para funcionar   
+`git pull` traigo la info de github
+`git push` envio desde git a github para sincronizar 
+se inicia los proyectos el 07-08-2025
 
