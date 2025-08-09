@@ -4,7 +4,7 @@
 
 Duré una hora y 40 minutos para comprender cómo sincronizar Git con GitHub y no crear subcarpetas de más.    
 Lo realicé de la siguiente manera:  
--cree el repositori en git hub     
+-cree el repositorio en git hub     
 -arrastre todas las carpetas del challenge al nuevo repositorio     
 -cree una nueva carpeta en mi carpeta de archivos del curso y la abri con git     
 -en git bash me dirigi hacia la carpeta del challenge    
