@@ -3,6 +3,7 @@ let amigos = []; // Arreglo para almacenar los nombres de los amigos
 function agregarAmigos(){
      // Obtener el valor del campo de entrada
     const input = document.getElementById("amigo");
+    //Obtiene el texto ingresado por el usuario en el campo de entrada (`input.value`)
     const nombre = input.value.trim();
     // Verificar que el campo no esté vacío
     if (nombre ===""){
