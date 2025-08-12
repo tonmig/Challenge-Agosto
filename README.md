@@ -19,7 +19,7 @@ Lo realicé de la siguiente manera:
 `git push` envio desde git a github para sincronizar 
 se inicia los proyectos el 07-08-2025
 
-**11/08/2025
+**11/08/2025**         
 1.Obtuve el texto del campo entrada con una variable `document.getElementById` y con otra variable  obtuve el texto ingresado por el usuario `input.value.trim();`
 2.verifique que no este vacio con un `if` 
 3.agregue el nombre al array con `amigos.push` amigos es el array 
