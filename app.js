@@ -26,5 +26,27 @@ function agregarAmigos(){
 
 }
 
+function seleccionarAmigo(){
+   
+    // Verificar si el arreglo tiene amigos
+    if (amigos.length === 0) {
+        alert("No hay amigos en la lista para seleccionar.");
+        return;
+    }
+    // Generar un índice aleatorio basado en el tamaño del arreglo
+    const indiceAleatorio = Math.floor(Math.random() * amigos.length);
+
+    // Obtener el amigo en el índice aleatorio
+      const amigoSeleccionado = amigos[indiceAleatorio];
+
+      // Mostrar el amigo seleccionado en el HTML utilizando innerHTML
+    const resultado = document.getElementById("resultado");
+    resultado.innerHTML = `<li>El amigo seleccionado es: <strong>${amigoSeleccionado}</strong></li>`;
+
+    
+}
+
+
+
 
 

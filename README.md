@@ -33,3 +33,6 @@ Este bloque de código:
 4. Establece el nombre del amigo como el contenido del `<li>`.
 5. Agrega el `<li>` al `<ul>` para que se muestre en la página.
 mas o menos esto es lo que se entendio y `<ul>` significa unordered list
+
+
+**12/08/2025**   
