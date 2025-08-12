@@ -10,12 +10,12 @@ function agregarAmigos(){
         alert("por favor ingresa un nombre valido");
         return
     }
-      // Agregar el nombre al arreglo
+     // Agregar el nombre al arreglo
     amigos.push(nombre);
-      // Limpiar el campo de entrada
+     // Limpiar el campo de entrada
     input.value = "";
 
-      // Mostrar la lista actualizada en el HTML
+     // Mostrar la lista actualizada en el HTML
     const lista = document.getElementById("listaAmigos");
     lista.innerHTML = ""; // Limpiar la lista antes de actualizarla
     amigos.forEach((amigo) => {
@@ -27,26 +27,19 @@ function agregarAmigos(){
 }
 
 function seleccionarAmigo(){
-   
+
     // Verificar si el arreglo tiene amigos
     if (amigos.length === 0) {
         alert("No hay amigos en la lista para seleccionar.");
         return;
     }
-    // Generar un índice aleatorio basado en el tamaño del arreglo
+     // Generar un índice aleatorio basado en el tamaño del arreglo
     const indiceAleatorio = Math.floor(Math.random() * amigos.length);
 
-    // Obtener el amigo en el índice aleatorio
-      const amigoSeleccionado = amigos[indiceAleatorio];
+ // Obtener el amigo en el índice aleatorio
+     const amigoSeleccionado = amigos[indiceAleatorio];
 
-      // Mostrar el amigo seleccionado en el HTML utilizando innerHTML
+     // Mostrar el amigo seleccionado en el HTML
     const resultado = document.getElementById("resultado");
     resultado.innerHTML = `<li>El amigo seleccionado es: <strong>${amigoSeleccionado}</strong></li>`;
-
-    
 }
-
-
-
-
-
