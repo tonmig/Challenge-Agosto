@@ -36,3 +36,11 @@ mas o menos esto es lo que se entendio y `<ul>` significa unordered list
 
 
 **12/08/2025**   
+1. **Verifica si hay amigos en la lista**:
+- Si no hay amigos, muestra un mensaje de alerta y detiene la ejecución.
+2. **Genera un índice aleatorio**:
+- Calcula un número aleatorio que corresponde a una posición válida en el arreglo `amigos`.
+3. **Selecciona un amigo**:
+- Usa el índice aleatorio para obtener un amigo del arreglo.
+4. **Muestra el resultado en el HTML**:
+- Actualiza el contenido del elemento con el ID `resultado` para mostrar el nombre del amigo seleccionado.
